@@ -12,6 +12,7 @@ const host:string="127.0.0.1";
 app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
+//** auto json pars for request body .... not need to use JSON.parse() */
 app.use(bodyParser.json())
 
 
